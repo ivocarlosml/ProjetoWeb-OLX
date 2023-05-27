@@ -1,0 +1,99 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #ffffff;
+    height: 500px;
+    max-width: 400px;
+    margin: 70px auto 10px auto;
+    padding:50px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+.image{
+    display:flex;
+    justify-content: center;
+}
+.image img{
+    width:170px;
+    height:80px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color:#341267;
+    font-size:23px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+input {
+    width:20rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff9100;
+}
+button:hover {
+    background-color: #45a049;
+}
+.ou-conecte{
+    text-align: center;
+    margin-top: 20px;
+}
+.com{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.com img {
+    width: 2.1rem;
+    height: 2.1rem;
+
+}
+.nao-tem-conta {
+    text-align: center;
+    margin-top: 20px;
+}
+.nao-tem-conta a {
+    color: #ca7402;
+}
+.preciso-ajuda {
+    text-align: center;
+    margin-top: 20px;
+}
+.termos-politica {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.775rem;
+    color: #777777;
+}
+.termos-politica span {
+    display: block;
+    margin-bottom: 5px;
+}
+.termos-politica a {
+    color: #ca7402;
+} 
+.termos-politica a:hover {
+    text-decoration: underline;
+}
+  

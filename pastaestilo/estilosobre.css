@@ -1,0 +1,159 @@
+@font-face{
+
+	font-family: 'fonte23';
+	src:url("../pastafonts/K2D-Bold.ttf");
+	font-family: 'fonte25';
+	src:url("../pastafonts/K2D-Bold.ttf");
+}
+@font-face{
+	font-family: 'fonte32';
+	src:url("../pastafonts/RobotoCondensed-Italic.ttf");
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(255, 0, 0);
+	max-width: 100%;
+	max-height: 100vh;
+}
+/*-------------------ESTILOS DO TOP--------------*/
+#topo {
+	background-color: rgb(255, 255, 255);
+    height:auto;
+	padding: 1rem 1rem 1rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+}
+#topo img {
+	display: flex;
+	justify-content: center;
+	width: 10.5rem;
+	height: 5rem;
+}
+#topo nav {
+	width: 65%;
+}
+#topo nav ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+#topo a {
+	color: #1a1616;
+	font-size: 1.3rem;
+	text-decoration: none;
+}
+.botoes-topo {
+	width: 20%;
+	height: 2.5rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.botao-r {
+	margin-left: 0.625rem;
+	margin-right: 0.125rem;
+	background-color: #ffffff;
+	border-radius: 1.25rem;
+	width: 9.375rem;
+	height: 2.5rem;
+	text-align: center;
+	padding-top: 0.4rem; 
+	border: 0.5px solid black;
+}
+.botao-l {
+	margin-left: 0.625rem;
+	background-color: #db680a;
+	border-radius: 1.25rem;
+	width: 9.375rem;
+	height: 2.5rem;
+	text-align: center;
+	padding-top: 0.4rem;
+	border: 0.5px solid black;
+}
+.botao-r:hover {
+	background-color: #ca9c9c;
+}
+.botao-l:hover {
+	background: #eb542e;
+}
+/*-------------------ESTILOS DAS SESSÕES------------*/
+.sessoes {
+    width:100%;
+	height: auto;
+    display: flex;
+    background-color: #613979;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+}
+#foto{
+	width:100%;
+	height:auto;
+	padding:3rem;
+}
+#foto img {
+	width: 100%;
+	height:auto;
+	object-fit: contain;
+	object-position: center;
+}
+.conteudo-sobre {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0 auto;
+}
+.conteudo-sobre h1{
+    color:#eb4715;
+    font-size:3rem;
+    font-family:'fonte25';
+    padding:2rem;  
+	text-align:center;
+}
+.conteudo-sobre h2{
+    color:#eb4715;
+    font-size:2rem;
+    font-family:'fonte25';
+    padding:2rem;  
+	text-align:center;
+}
+.conteudo-sobre h3{
+    color:#d9ff00;
+    font-size:3rem;
+    font-family:'fonte25';
+    padding:2rem;  
+	text-align:center;
+}
+.conteudo-sobre p{
+    color:#ffffff;
+    font-size:1.3rem;
+    font-family:'fonte23';
+    text-align:center;
+	padding:2rem;
+}
+/*-----------Estilos do rodapé-------------*/
+.rodape {
+	background-color: black;
+	color: #ffffff;
+	height:10vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rodape p {
+	font-size: 0.875rem;
+	text-align: center;
+	margin: 0;
+	padding: 0.625rem;
+}
