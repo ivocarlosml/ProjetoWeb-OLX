@@ -1,0 +1,191 @@
+@font-face{
+	font-family: 'fonte32';
+	src:url("../pastafonts/RobotoCondensed-Italic.ttf");
+}
+@font-face{
+	font-family:'fonte4';
+	src:url("../pastafonts/vinicius.ttf");
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(255, 255, 255);
+	max-width: 100%;
+	max-height: 100vh;
+}
+/*-------------------ESTILOS DO TOP--------------*/
+#topo {
+	background-color: rgb(255, 255, 255);
+    height:auto;
+	padding: 1rem 1rem 1rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+}
+#topo img {
+	display: flex;
+	justify-content: center;
+	width: 10.5rem;
+	height: 5rem;
+}
+#topo nav {
+	width: 65%;
+}
+#topo nav ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+#topo a {
+	color: #1a1616;
+	font-size: 1.3rem;
+	text-decoration: none;
+}
+.botoes-topo {
+	width: 20%;
+	height: 2.5rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.botao-r {
+	margin-left: 0.625rem;
+	margin-right: 0.125rem;
+	background-color: #ffffff;
+	border-radius: 1.25rem;
+	width: 9.375rem;
+	height: 2.5rem;
+	text-align: center;
+	padding-top: 0.4rem; 
+	border: 0.5px solid black;
+}
+.botao-l {
+	margin-left: 0.625rem;
+	background-color: #db680a;
+	border-radius: 1.25rem;
+	width: 9.375rem;
+	height: 2.5rem;
+	text-align: center;
+	padding-top: 0.4rem;
+	border: 0.5px solid black;
+}
+.botao-r:hover {
+	background-color: #ca9c9c;
+}
+.botao-l:hover {
+	background: #eb542e;
+}
+/*-------------------ESTILOS DAS SESSÕES------------*/
+.sessoes {
+	width: 100%;
+    height:auto;
+	display: flex;
+/*	background-color:#ff893b;*/
+	background-color: #a44fff;
+}
+/*----------------ESTILO DOS PRODUTOS-----------*/
+#container {
+	padding: 1rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.nome{
+	height:3.5rem;
+	display:flex;
+	justify-content:center ;
+	align-items: center;
+	padding-bottom: 1.5rem;
+}
+.nome h1{
+	color: #e5ff00;
+	font-size:3rem;
+	font-family: 'fonte4';
+}
+#produtos {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	height:auto;
+	width:80%;
+	background-color: #ffffffe7;
+}
+#produtos .produto {
+	width:26%;
+    height: 18rem;
+    background-color:rgb(0, 0, 0);
+	margin: 1.25rem;
+    padding:1rem;
+    border-radius: 1.25rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#produtos .produto img {
+	width: 100%;
+	height: 9.375rem;
+	object-fit: contain;
+	object-position: center;
+	margin-bottom: 0.625rem;
+	border-radius: 1rem;
+}
+#produtos .produto .comprar-link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+#produtos .produto .comprar-link img {
+	margin-bottom: 0.625rem;
+}
+
+#produtos .produto a{
+	color: #ffffff;
+	text-decoration: none;
+}
+#produtos .produto p {
+	color: #f1d010;
+	font-size: 1.3rem;
+}
+#produtos .produto h3{
+	color:#ffffff;
+	font-family: "fonte32";
+	font-size: 1rem;
+}
+/*------------ESTILO DOS ANUNCIOS--------*/
+.anuncio{
+	display:flex;
+	height:auto;
+	width:100%;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-color: #086366;
+}
+.anuncio img{
+	width:100%;
+	height:auto;
+	max-height:300px;
+} 
+/*-------ESTILO RODAPÉ------*/
+.rodape {
+	background-color: black;
+	color: #ffffff;
+	height:10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rodape p {
+	font-size: 0.875rem;
+	text-align: center;
+	margin: 0;
+	padding: 0.625rem;
+}
